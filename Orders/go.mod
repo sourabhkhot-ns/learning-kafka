@@ -1,8 +1,6 @@
-module github.com/learning-kafka/orders
+module github.com/learning-kafka/Orders
 
-go 1.23
-
-toolchain go1.23.9
+go 1.21
 
 require (
 	github.com/Shopify/sarama v1.38.1

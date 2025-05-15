@@ -1,8 +1,10 @@
-module github.com/learning-kafka/payments
+module github.com/learning-kafka/Payments
 
 go 1.21
 
-require github.com/Shopify/sarama v1.38.1
+require (
+	github.com/Shopify/sarama v1.38.1
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
